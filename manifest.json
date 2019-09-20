@@ -1,0 +1,12 @@
+{
+  "name": "Quick Filters for Microsoft Planner",
+  "version": "1.0",
+  "description": "Quick Filters for Microsoft Planner",
+  "content_scripts": [
+    {
+      "matches": ["https://tasks.office.com/*"],
+      "js": ["planner.js"]
+    }
+  ],
+  "manifest_version": 2
+}
